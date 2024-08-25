@@ -2,7 +2,6 @@ function offerOptions() {
     // selecting all the radio input inside offer cards
     const offerCardsRadios = document.querySelectorAll(".offer-card .radio")
 
-    console.log(offerCardsRadios)
     // return if empty
     if (offerCardsRadios.length === 0) return
 
