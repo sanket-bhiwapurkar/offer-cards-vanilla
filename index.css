@@ -247,14 +247,14 @@
   border-right: 2px dashed var(--white);
 }
 
-.offer-card.active {
+.offer-card.expanded {
   padding: 20px;
   background: var(--primary-light);
   border: 2px solid var(--primary);
   height: auto;
 }
 
-.offer-card.active .offer-head {
+.offer-card.expanded .offer-head {
   display: none;
 }
 
@@ -271,6 +271,6 @@
   padding: 0px 8px;
 }
 
-.active-show {
+.expanded-show {
   display: none;
 }
